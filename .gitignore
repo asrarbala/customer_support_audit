@@ -1,0 +1,31 @@
+# ---- Python cache files ----
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---- Virtual environment ----
+venv/
+.env/
+env/
+
+# ---- IDE / Editor files ----
+.idea/
+.vscode/
+*.iml
+
+# ---- Data files (we don’t want raw data in Git) ----
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+
+# ---- Reports and Visuals (can be regenerated) ----
+reports/*
+visuals/*
+
+# ---- Logs and temp files ----
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
