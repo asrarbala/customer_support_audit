@@ -169,5 +169,4 @@ a critical step in any real-world data analytics process.
 
 ### 👤 Author  
 **Asrar Ahmad Bala**  
-_Data Quality & QA Engineer | Data Analyst (in progress)_  
-📧 _[optional: add your email or LinkedIn link here]_
+📧 [asrar.bala98@gmail.com || www.linkedin.com/in/asrar-ahmad-bala]
