@@ -26,7 +26,8 @@ print(f"Dropped columns (≥{(threshold - tolerance)*100:.1f}% missing): {drop_c
 
 
 # Fill missing text with placeholder
-df['Customer Remarks'] = df['Customer Remarks'].fillna('No Remarks')
+if 'Customer Remarks' in df.columns:
+    df['Customer Remarks'] = df['Customer Remarks'].fillna('No Remarks')
 
 # Convert dates to datetime
 date_cols = ['order_date_time', 'Issue_reported at', 'issue_responded', 'Survey_response_Date']
